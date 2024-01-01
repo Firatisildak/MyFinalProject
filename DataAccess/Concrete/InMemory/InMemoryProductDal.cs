@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,7 +33,7 @@ namespace DataAccess.Concrete.InMemory
         public void Delete(Product product)
         {
             Product? productToDelete = _products.SingleOrDefault(p => p.ProductId == product.ProductId);//C# 8 ve sonraki sürümlerinde, varsayılan olarak "nullable reference types" özelliği etkindir. Bu özellik, referans türlerinin null olup olamayacağını denetlemenizi sağlar. _products listesi null olma ihtimaline karşı kontrol ettiğiniz için, Product başına soru işareti konulur.
-            if (productToDelete != null)//Burada productToDelete null olma durumu bizim için hata teşkil edeceği için böyle if içine aldık.
+            if (productToDelete != null)//Burada productToDelete null olma dur0umu bizim için hata teşkil edeceği için böyle if içine aldık.
             {
                 _products.Remove(productToDelete);
             }
@@ -43,9 +44,19 @@ namespace DataAccess.Concrete.InMemory
 
         }
 
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             return _products;
+        }
+
+        public List<Product> GetAll(Expression<Func<Product, bool>>? filter = null)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAllByCategory(int categoryId)
