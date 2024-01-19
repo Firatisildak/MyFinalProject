@@ -15,11 +15,10 @@ namespace DataAccess.Abstract
     //new(): new'lenebilir olmalı. Bu sayede IEntity yani interface kullanımını sınırladık.
     public interface IEntityRepository<T> where T : class, IEntity
     {
-        List<T> GetAll(Expression<Func<T, bool>>? filter = null);
+        List<T> GetAll(Expression<Func<T, bool>>? filter = null);//Expression filtre yapabilmemizi sağlıyor
         T Get(Expression<Func<T, bool>> filter);
         void Add(T entity);
         void Update(T entity);
         void Delete(T entity);
-        List<T> GetAllByCategory(int categoryId);
     }
 }
