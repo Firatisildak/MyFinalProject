@@ -16,3 +16,5 @@ C:\Users\firat\source\repos\MyFinalProject\Business\obj\Debug\net8.0\Business.dl
 C:\Users\firat\source\repos\MyFinalProject\Business\obj\Debug\net8.0\refint\Business.dll
 C:\Users\firat\source\repos\MyFinalProject\Business\obj\Debug\net8.0\Business.pdb
 C:\Users\firat\source\repos\MyFinalProject\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\firat\source\repos\MyFinalProject\Business\bin\Debug\net8.0\Core.dll
+C:\Users\firat\source\repos\MyFinalProject\Business\bin\Debug\net8.0\Core.pdb
