@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aPcjWeKURZjN/397+md/XLAknFgtdi543Vn2m4MkNQzEQpMBTlyEaFYiUKx+ppOAWVeG8cNnMs03xWjYQnmGtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\firat\\source\\repos\\MyFinalProject\\WebApplication3\\WebApplication3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\firat\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.0\\microsoft.dotnet.ilcompiler.8.0.0.nupkg.sha512",
+    "C:\\Users\\firat\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.0\\microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
+    "C:\\Users\\firat\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.0\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
