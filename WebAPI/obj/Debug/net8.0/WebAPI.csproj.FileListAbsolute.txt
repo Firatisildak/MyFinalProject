@@ -72,3 +72,7 @@ C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\DataAccess.pd
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Entities.pdb
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\obj\Debug\net8.0\WebAPI.csproj.AssemblyReference.cache
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CopyComplete
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs

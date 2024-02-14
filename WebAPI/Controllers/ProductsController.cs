@@ -19,12 +19,40 @@ namespace WebAPI.Controllers
             _productsService = productsService;
         }
 
-        [HttpGet]
-        public List<Product> Get()
+        [HttpGet("getall")]
+        public IActionResult GetAll()
         {
+            //Swagger
+            //Dependency chain --
             var result=_productsService.GetAll();
-            return result.Data;
+            if(result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
 
+        }
+
+        [HttpGet("getbyid")]
+        public IActionResult GetById(int id)
+        {
+            var result=_productsService.GetById(id);
+            if(result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpPost("add")]
+        public IActionResult Add(Product product)
+        {
+            var result = _productsService.Add(product);
+            if(result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
 
     }
