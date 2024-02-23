@@ -76,3 +76,7 @@ C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Microsoft.Ope
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Autofac.dll
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Castle.Core.dll

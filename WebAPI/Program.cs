@@ -8,17 +8,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-
-var app = builder.Build();
-
-
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IProductServise, ProductManager>();
 builder.Services.AddSingleton<IProductDal, EfProductDal>();
+var app = builder.Build();
+
+
 // Configure the HTTP request pipeline.
 
 app.UseHttpsRedirection();
-app.UseSwagger();
 app.UseAuthorization();
 
 app.MapControllers();
