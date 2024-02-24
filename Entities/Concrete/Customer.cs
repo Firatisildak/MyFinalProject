@@ -9,9 +9,9 @@ namespace Entities.Concrete
 {
     public class Customer:IEntity
     {
-        public required string CustomerID { get; set; }
-        public required string CustomerName { get; set; }
-        public required string CompanyName { get; set; }
-        public required string City { get; set; }
+        public string? CustomerID { get; set; }
+        public string? CustomerName { get; set; }
+        public string? CompanyName { get; set; }
+        public string? City { get; set; }
     }
 }
