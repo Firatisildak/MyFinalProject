@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Castle.DynamicProxy;
+using Microsoft.AspNetCore.SignalR;
 using IInterceptor = Castle.DynamicProxy.IInterceptor;
 
 namespace Core.Utilities.Interceptors
@@ -8,7 +9,7 @@ namespace Core.Utilities.Interceptors
     {
         public int Priority { get; set; }
 
-        public virtual void Intercept(IInvocationBinder invocation)
+        public virtual void Intercept(IInvocation invocation)
         {
 
         } 

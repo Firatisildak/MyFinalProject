@@ -1179,6 +1179,7 @@
           "Autofac": "8.0.0",
           "Autofac.Extensions.DependencyInjection": "9.0.0",
           "Autofac.Extras.DynamicProxy": "7.1.0",
+          "FluentValidation": "11.9.0",
           "Microsoft.EntityFrameworkCore": "8.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
           "Swashbuckle.AspNetCore": "6.5.0",

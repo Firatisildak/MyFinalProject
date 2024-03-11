@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eJnIhqz1TMopcClGOwYNP525m02FM3lGG23nkH9VDx1rS1BjhfC2be34RDFxwr2O9C4s4dbPHT8/cRC+d3SjKg==",
+  "dgSpecHash": "buJ6GOsgJ6ESkdaUxq4rTX4bYS4u7Pkr2w3e2WQ5zSum81tt0NJgvp4mWYcNyBZJVlGBFmrZzFzhKAQjdM4OXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\firat\\source\\repos\\MyFinalProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\firat\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\firat\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\firat\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\firat\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\firat\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\firat\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\firat\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

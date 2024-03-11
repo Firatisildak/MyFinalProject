@@ -1,14 +1,16 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using FluentValidation;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace Core.CrossCuttingConcerns.Validation
 {
-    public class ValidationTool
+    public static class ValidationTool
     {
         public static void Validate(IValidator validator, object entity)
         {
