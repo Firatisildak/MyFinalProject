@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
@@ -17,10 +16,11 @@ namespace DataAccess.Concrete.EntityFramework
     {
         public List<ProductDetailDto> GetProductDetails()
         {
-            using(NorthwindContext context = new NorthwindContext())
+            using (NorthwindContext context = new NorthwindContext())
             {
                 var result = from p in context.Products
-                             join c in context.Categories on p.CategoryId equals c.CategoryId
+                             join c in context.Categories
+                             on p.CategoryId equals c.CategoryId
                              select new ProductDetailDto
                              {
                                  ProductId = p.ProductId,
