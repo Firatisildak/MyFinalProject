@@ -42,6 +42,7 @@ namespace Business.Concrete
 
             //Aynı isimde ürün eklenemez
             //Eğer mevcut kategori sayısı 15'i geçtiyse sisteme yeni ürün eklenemez. ve 
+            //aşağıdaki kod satırı polymorphism
             IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
                 CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckIfCategoryLimitExceded());
 
@@ -139,7 +140,7 @@ namespace Business.Concrete
         }
 
         //[TransactionScopeAspect]
-        public IResult AddTransactionalTest(Product product)
+        public IResult? AddTransactionalTest(Product product)
         {
 
             Add(product);
