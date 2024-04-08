@@ -43,7 +43,7 @@ namespace Business.Concrete
             //Aynı isimde ürün eklenemez
             //Eğer mevcut kategori sayısı 15'i geçtiyse sisteme yeni ürün eklenemez. ve 
             //aşağıdaki kod satırı polymorphism
-            IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
+            IResult? result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
                 CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckIfCategoryLimitExceded());
 
             if (result != null)
@@ -118,7 +118,7 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
-        private IResult CheckIfProductNameExists(string productName)
+        private IResult CheckIfProductNameExists(string ?productName)
         {
             var result = _productDal.GetAll(p => p.ProductName == productName).Any();
             if (result)
