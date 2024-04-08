@@ -3405,10 +3405,12 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Autofac >= 8.0.0",
+      "Autofac.Extensions.DependencyInjection >= 9.0.0",
       "Autofac.Extras.DynamicProxy >= 7.1.0",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0",
       "FluentValidation >= 11.9.0",
+      "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "Swashbuckle.AspNetCore.Swagger >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0",
@@ -3465,6 +3467,10 @@
             "target": "Package",
             "version": "[8.0.0, )"
           },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "Autofac.Extras.DynamicProxy": {
             "target": "Package",
             "version": "[7.1.0, )"
@@ -3472,6 +3478,10 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.9.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
