@@ -82,3 +82,4 @@ C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Autofac.Extra
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\firat\source\repos\MyFinalProject\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
