@@ -1,4 +1,4 @@
-Projemizin Tanımı
+#Projemizin Tanımı
 Bu proje, C# programlama dili ve .NET platformu kullanılarak geliştirilmiş, kurumsal düzeyde bir Web API çözümüdür. Proje, ASP.NET framework'ü üzerinde inşa edilmiş olup, Entity Framework ile veritabanı işlemleri gerçekleştirilmiştir. Ayrıca, Inversion of Control (IoC) prensibini uygulamak için Autofac kütüphanesinden yararlanılmış ve JWT token tabanlı kimlik doğrulama işlemleri için gerekli yapılar entegre edilmiştir.
 
 Kullanılan Teknolojiler ve Yapılar
