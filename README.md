@@ -1,3 +1,39 @@
+#ENGLISH/TÜRKÇE
+
+## Project Description
+
+This project is an enterprise-level Web API solution developed using the C# programming language and .NET platform. The project is built on the ASP.NET framework and utilizes Entity Framework for database operations. Additionally, Autofac library is used to implement the Inversion of Control (IoC) principle, and necessary structures for JWT token-based authentication processes are integrated.
+
+## Technologies and Structures Used
+
+- **C# and .NET**: The project is built on the C# programming language and .NET technology stack, providing a powerful and scalable solution.
+  
+- **ASP.NET Web API**: The project is developed using ASP.NET framework, enabling the design and implementation of RESTful APIs.
+  
+- **Entity Framework**: Entity Framework is used for database operations, making database management easier and reducing complexity associated with database interactions.
+  
+- **IoC (Inversion of Control) and Autofac**: Autofac is preferred for implementing the IoC principle in the project. This reduces dependencies and increases code testability. Dependency Injection mechanism is also utilized.
+
+- **JWT Token-based Authentication**: JWT (JSON Web Token) based authentication structure is integrated into the project for user authentication processes. This ensures secure authentication and authorization mechanisms.
+
+## Installation and Getting Started
+
+To run the project on your local machine, follow these steps:
+
+1. Clone or download the project to your computer.
+2. Open the project in Visual Studio or your preferred IDE.
+3. Restore dependencies (using NuGet Package Manager or by running `dotnet restore` command).
+4. Configure database connection settings in the `appsettings.json` file.
+5. Build and run the project.
+6. Test the functionality by accessing the API.
+
+## Contribution
+
+If you would like to contribute to this project, please create a pull request. You can add new features or improve existing code to enhance the project.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Projemizin Tanımı
 
 Bu proje, C# programlama dili ve .NET platformu kullanılarak geliştirilmiş, kurumsal düzeyde bir Web API çözümüdür. Proje, ASP.NET framework'ü üzerinde inşa edilmiş olup, Entity Framework ile veritabanı işlemleri gerçekleştirilmiştir. Ayrıca, Inversion of Control (IoC) prensibini uygulamak için Autofac kütüphanesinden yararlanılmış ve JWT token tabanlı kimlik doğrulama işlemleri için gerekli yapılar entegre edilmiştir.
